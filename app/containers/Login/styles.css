@@ -1,0 +1,29 @@
+
+.box-input-item{
+    margin-left: 3rem;
+}
+
+.button-login{
+    margin-top: 1rem;
+}
+
+.container-avatar{
+    margin-bottom: 1.5rem;
+}
+
+.box-input{
+    margin-left: 0.5rem;
+}
+
+.shape-right-login{
+    clip-path: polygon(100% 0, 0% 0, 100% 100%);
+    background: #4b4fd1;  
+    background: linear-gradient(-20deg, #2132cc, #853ece );
+    background: -webkit-linear-gradient(-20deg #2132cc, #853ece );  
+}
+
+.image-sms{
+    z-index: 1000;
+    width: 50%;
+    color: #5e70c3
+}

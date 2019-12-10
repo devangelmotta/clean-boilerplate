@@ -1,0 +1,9 @@
+{
+  "omni.containers.login.email": "Correo electrónico",
+  "omni.containers.login.password": "Contraseña",
+  "omni.containers.login.buttonSignIn": "INGRESAR",
+  "omni.containers.LocaleToggle.en": "en",
+  "omni.containers.LocaleToggle.es": "es",
+  "omni.containers.NotFoundPage.header": "Page not found.",
+  "omni.components.Footer.license.message": "This projest is a test and free under MIT license."
+}
