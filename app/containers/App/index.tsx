@@ -8,8 +8,6 @@ import { Helmet } from 'react-helmet';
 import styled from 'styles/styled-components';
 import { Redirect, Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage';
-import Login from "containers/Login";
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Footer from 'components/Footer';
 
@@ -18,7 +16,6 @@ import { createStructuredSelector } from 'reselect';
 
 import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
-import { loadLogin } from "./actions";
 import makeSelectApp from './selectors';
 import reducer from './reducer';
 import saga from './saga';
@@ -49,7 +46,7 @@ function App(props: Props) {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(loadLogin())
+
   }, []);
 
   return <AppWrapper>
@@ -60,8 +57,6 @@ function App(props: Props) {
       <meta name="description" content="OMNI Demo Test" />
     </Helmet>
     <Switch>
-      <Route exact path='/' render={() => { return !app.loginOn ? <Redirect exact to="/login" component={Login} /> : <HomePage /> }} />
-      <Route exact path="/login" component={Login} />
       <Route path="" component={NotFoundPage} />
     </Switch>
     <Footer />

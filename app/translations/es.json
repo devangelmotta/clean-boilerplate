@@ -1,9 +1,9 @@
 {
-  "omni.containers.login.email": "Email",
-  "omni.containers.login.password": "Password",
-  "omni.containers.login.buttonSignIn": "ENJOY!",
+  "omni.containers.login.email": "Correo Electrónico",
+  "omni.containers.login.password": "Contraseña",
+  "omni.containers.login.buttonSignIn": "CONTINUAR!",
   "omni.containers.LocaleToggle.en": "en",
   "omni.containers.LocaleToggle.es": "es",
-  "omni.containers.NotFoundPage.header": "Page not found.",
+  "omni.containers.NotFoundPage.header": "Página no encontrada.",
   "omni.components.Footer.license.message": "Este proyecto es una prueba y es libre bajo la licencia del MIT."
 }
